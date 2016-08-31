@@ -1,0 +1,28 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+
+#block-sitemission-2 {
+	background-color:#0678be;
+	color: #fff;
+	padding:30px;
+	a {
+		color: #ddd;
+		text-decoration:underline;
+	}
+}
+
+#block-mainmenu-2{
+	ul{
+	    -webkit-padding-start:0;
+	li{
+		display:inline-block;		
+	}	
+}
+}
